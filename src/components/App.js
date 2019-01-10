@@ -52,7 +52,7 @@ class App extends Component {
               categorias={this.state.categorias}
               obtenerEventos={this.obtenerEventos}
             />
-            <Eventos  eventos={this.state.eventos}/>
+            <Eventos eventos={this.state.eventos}/>
           </div>
       </div>
     );
